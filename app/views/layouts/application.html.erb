@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kamalpha</title>
+  <%= google_font_link_tag("Actor") %>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= google_analytics_script %>
+</head>
+<body>
+
+<h1>Kamalpha</h1>
+<p><%= t("construction") %></p>
+  <nav>
+  <ul>
+    <li><a class="nav_link" href="#methode"><%= t("nav.methode") %></a></li>
+    <li><a class="nav_link" href="#approche"><%= t("nav.approche") %></a></li>
+    <li><a class="nav_link" href="#pilote"><%= t("nav.pilote")%></a></li>
+    <li><a class="nav_link" href="#ecole"><%= t("nav.ecole")%></a></li>
+    <li><a class="nav_link" href="#impliquez"><%= t("nav.impliquez") %></a></li>
+    <li><a class="nav_link" href="#apropos"><%= t("nav.apropos") %></a></li>
+  </ul>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
