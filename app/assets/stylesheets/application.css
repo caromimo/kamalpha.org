@@ -5,6 +5,23 @@
  *= require_self
  *= require_tree  
 */
+#title {
+text-align: center;
+}
+
+#subtitle {
+text-align: center;
+}
+
+#construction {
+text-align: center;
+}
+
+body {
+width:80%;
+margin-left:auto;
+margin-right:auto;
+}
 
 
 nav { 
@@ -18,15 +35,15 @@ nav ul li {
 nav ul { 
 }
 .nav_link {
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: 'Actor', Arial, serif; 
   text-decoration: none;
-  font-size: 18px;
-  font-weight: bold; 
+  font-size: 14px;
+
   color: #fff;
 }
-a:hover {color:green}
+a:hover {color:black}
 
 body {
   font-family: 'Actor', Arial, serif; 

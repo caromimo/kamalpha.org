@@ -1,9 +1,11 @@
 fr:
   construction: "Site en construction. Revenez-nous voir bientôt. :)"
   nav:
+    objectif: "Objectif"
     methode: "La méthode"
-    approche: "L'approche"
+    logiciel: "Le logiciel"
     pilote: "Le projet pilote"
-    ecole: "L'école"
+    ecole: "Le centre"
     impliquez: "Impliquez-vous"
     apropos: "À propos"
+    neuf: "Quoi de neuf?"

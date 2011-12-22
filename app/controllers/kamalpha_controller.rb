@@ -1,7 +1,7 @@
 
 class KamalphaController < ApplicationController
   def index
-    #Place holder for database information (usually)
+    @kamalpha = Organisation.first
   end
 
 end
